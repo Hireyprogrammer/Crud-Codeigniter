@@ -1,0 +1,38 @@
+CRITICAL - 2024-12-26 07:29:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+[Method: GET, Route: product]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\Shop.php(14): view('')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->product()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 09:12:12 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: sample]
+in APPPATH\Views\site\sample.php on line 2.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/sample', [], true)
+ 4 APPPATH\Controllers\Sitecontroller.php(13): view('site/sample')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sitecontroller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sitecontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-26 09:12:31 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: sample]
+in APPPATH\Views\site\sample.php on line 2.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('site/sample', [], true)
+ 4 APPPATH\Controllers\Sitecontroller.php(13): view('site/sample')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sitecontroller->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sitecontroller))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
